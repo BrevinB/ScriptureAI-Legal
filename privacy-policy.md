@@ -1,40 +1,77 @@
-# Privacy Policy
+# Privacy Policy for ScriptureAI
 
-**Effective Date:** 08/30/2025
+**Effective Date:** September 09, 2025
 
-## 1. Introduction
-Welcome to **ScriptureAI**. We respect your privacy and are committed to protecting it through this Privacy Policy. This document explains how we collect, use, disclose, and safeguard your information when you visit our website hosted via GitHub Pages.
+## Overview
 
-By using our website, you consent to the terms outlined here. If you disagree with any part of this policy, please discontinue use of the site.
+ScriptureAI is designed with privacy in mind. We are committed to protecting your personal information and being transparent about our data practices.
 
-## 2. Information We Collect
-We do not actively collect personal information unless you voluntarily provide it. Potential information collected may include:
+## Information We Collect
 
-- **Email Address:** If you contact us or subscribe to updates.
-- **Usage Data:** Automatically collected data such as browser type, IP address, pages visited, and access times.
+### Data You Provide
+- **Chat Messages**: Your biblical questions and conversations are stored locally on your device and, if you choose, synced via iCloud
+- **Settings Preferences**: Bible translation preferences and app settings
 
-## 3. Use of Your Information
-We may use collected information for purposes including:
+### Technical Data
+- **Device Information**: Basic device information required for app functionality
+- **Usage Analytics**: We do not collect usage analytics or tracking data
 
-- Providing, operating, and maintaining our website.
-- Improving, personalizing, and expanding our website.
-- Communicating with you, including for customer service or updates.
-- Detecting and preventing fraud or security issues.
+## How We Use Your Information
 
-## 4. Cookies and Tracking Technologies
-Our site may use cookies or similar technologies to enhance user experience. You can set your browser to refuse cookies, but this may affect functionality.
+- **Primary Purpose**: To provide AI-powered biblical insights and maintain your conversation history
+- **iCloud Sync**: If enabled, your chat data is synced securely through Apple's iCloud service
+- **Local Storage**: All data can be stored locally without cloud services if preferred
 
-## 5. Third-Party Services
-We may use third-party services (e.g., GitHub, analytics providers) that collect information according to their own policies. We do not control third-party privacy practices and encourage you to review their policies.
+## Data Sharing and Third Parties
 
-## 6. Data Security
-We implement reasonable measures to protect your information. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.
+### OpenAI Integration
+- Your questions are sent to OpenAI's GPT models to generate biblical insights
+- OpenAI's privacy policy applies to data processed by their services
+- We do not share your personal information beyond what's necessary for AI processing
 
-## 7. Children’s Privacy
-Our site is not intended for children under 13. We do not knowingly collect personal information from children under 13. If we learn we have collected such information, we will take steps to delete it promptly.
+### No Advertising or Tracking
+- We do not use your data for advertising purposes
+- We do not sell or share your personal information with third parties
+- We do not implement user tracking or analytics
 
-## 8. Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. Changes are effective when posted on this page with a revised effective date.
+## Data Storage and Security
 
-## 9. Contact Us
-For questions or concerns about this Privacy Policy, contact us at **hello@scriptureai.app**.
+### Local Storage
+- Chat history is stored securely on your device
+- You can delete all data through the app's settings
+
+### iCloud Storage (Optional)
+- Uses Apple's secure iCloud infrastructure
+- Data is encrypted in transit and at rest
+- You control whether to enable iCloud sync
+
+## Your Rights and Controls
+
+### Data Management
+- **View Data**: Access all your chat history through the app
+- **Delete Data**: Clear individual chats or all data through settings
+- **Export Control**: Choose between local-only or iCloud sync storage
+
+### Account Control
+- No account registration required
+- Full control over your data storage preferences
+
+## Children's Privacy
+
+ScriptureAI does not knowingly collect personal information from children under 13. The app is designed for general biblical study and is suitable for all ages when used with appropriate supervision.
+
+## Changes to This Policy
+
+We may update this privacy policy from time to time. We will notify users of significant changes through the app or other appropriate means.
+
+## Contact Information
+
+For questions about this privacy policy or your data, please contact us through the app's support channels.
+
+## Apple App Store Compliance
+
+This app complies with Apple's App Store privacy requirements and guidelines. Your data practices align with Apple's privacy standards and user expectations.
+
+---
+
+**Note**: This privacy policy is designed for transparency and compliance with app store requirements. ScriptureAI prioritizes user privacy and data security in all its operations.

@@ -1,38 +1,205 @@
-# Terms of Service
+# Terms of Service for ScriptureAI
 
-**Effective Date:** 08/30/2025
+**Effective Date:** January 25, 2025
 
 ## 1. Acceptance of Terms
-By accessing or using **ScriptureAI**, you agree to be bound by these Terms of Service (“Terms”). If you do not agree, please discontinue use of the website.
 
-## 2. Use of the Site
-You agree to use the site only for lawful purposes and in a way that does not infringe on the rights of others or restrict or inhibit their use of the website.
+By downloading, installing, or using ScriptureAI ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
 
-### Prohibited activities include, but are not limited to:
-- Engaging in unauthorized use or access.
-- Introducing malicious code or interfering with the site’s operation.
-- Misrepresenting your identity or affiliations.
+## 2. Description of Service
 
-## 3. Intellectual Property
-Unless otherwise stated, all content on the website (e.g., text, graphics, code) is owned or licensed by **Brevin Blalock** and protected by applicable copyright and trademark laws. Unauthorized reproduction or distribution is prohibited.
+ScriptureAI is an iOS application that provides AI-powered biblical insights and commentary. The App uses artificial intelligence to help users explore biblical questions and receive scripture-based responses.
 
-## 4. Links to Third-Party Sites
-The website may contain links to third-party websites or services. We are not responsible for the content or practices of third-party sites. Access them at your own risk.
+### Key Features:
+- AI-powered biblical Q&A
+- Scripture exploration and commentary
+- Chat history and conversation management
+- Optional iCloud synchronization
+- Usage tracking and subscription management
 
-## 5. Disclaimer of Warranties
-The website is provided “as-is” and “as available,” without warranties of any kind, express or implied. We make no guarantees regarding the accuracy, reliability, or availability of the website.
+## 3. User Accounts and Data
 
-## 6. Limitation of Liability
-To the fullest extent permitted by law, **Brevin Blalock** shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use or inability to use the website.
+### 3.1 Account Requirements
+- No account creation is required to use basic features
+- iCloud account required for data synchronization (optional)
 
-## 7. Indemnification
-You agree to indemnify and hold harmless **Brevin Blalock**, its affiliates, and their respective officers, directors, employees, and agents from and against any claims, losses, liabilities, expenses, or damages arising out of your use of the website or violation of these Terms.
+### 3.2 User Responsibilities
+You are responsible for:
+- Maintaining the security of your device
+- All activity that occurs through your use of the App
+- Compliance with these Terms and applicable laws
 
-## 8. Governing Law
-These Terms are governed by and construed in accordance with the laws of **The United States**, without regard to its conflict of law provisions.
+## 4. Subscriptions and Payments
 
-## 9. Changes to Terms
-We may update these Terms at any time. Continued use of the site after changes take effect constitutes acceptance of the revised Terms.
+### 4.1 Subscription Plans
+ScriptureAI offers several subscription options:
+- **Monthly Plans**: 300 or 1000 messages per month
+- **Yearly Plans**: 5000 or 15000 messages per year
+- **One-time Purchases**: 100, 500, or 1000 permanent messages
 
-## 10. Contact Information
-For questions about these Terms, contact us at **hello@scriptureai.app**.
+### 4.2 Payment Terms
+- All purchases are processed through Apple's App Store
+- Subscriptions automatically renew unless cancelled
+- Prices may vary by region and are subject to change
+- Payment is charged to your Apple ID account
+
+### 4.3 Cancellation and Refunds
+- You may cancel subscriptions through your Apple ID account settings
+- Cancellation takes effect at the end of the current billing period
+- Refunds are handled according to Apple's refund policy
+- Unused messages from subscriptions expire at the end of the billing period
+- Permanent messages (one-time purchases) do not expire
+
+### 4.4 Free Trial (if applicable)
+- Free trials may be offered for subscription plans
+- Trial periods will be clearly disclosed before purchase
+- Trials automatically convert to paid subscriptions unless cancelled
+
+## 5. Usage Guidelines
+
+### 5.1 Permitted Use
+You may use ScriptureAI for:
+- Personal biblical study and exploration
+- Educational purposes related to Christian faith
+- Private devotional activities
+
+### 5.2 Prohibited Use
+You may NOT use ScriptureAI for:
+- Commercial religious services without permission
+- Generating content for other apps or services
+- Automated or bulk queries that exceed normal usage
+- Any illegal, harmful, or offensive purposes
+- Circumventing usage limits or subscription requirements
+
+### 5.3 Content Guidelines
+- Maintain respectful dialogue in your queries
+- Do not attempt to generate inappropriate religious content
+- Respect the sacred nature of biblical material
+
+## 6. AI-Generated Content
+
+### 6.1 Nature of AI Responses
+- All responses are generated by artificial intelligence
+- Responses are for informational and devotional purposes only
+- AI responses should not replace pastoral care, professional counseling, or formal theological education
+- Always verify important theological questions with qualified religious authorities
+
+### 6.2 Content Accuracy
+- We strive for accurate biblical information but cannot guarantee perfection
+- AI responses may contain errors or interpretational differences
+- Users should cross-reference important information with authoritative sources
+
+### 6.3 Denominational Neutrality
+- The App aims to provide broadly Christian perspectives
+- Responses may not align with specific denominational teachings
+- Users should consult their own religious leaders for denominational guidance
+
+## 7. Intellectual Property
+
+### 7.1 App Ownership
+ScriptureAI, including its design, code, and features, is owned by the developer and protected by copyright and other intellectual property laws.
+
+### 7.2 User Content
+- Your questions and chat history remain your property
+- You grant us permission to process your queries to provide AI responses
+- We do not claim ownership of your personal devotional content
+
+### 7.3 Third-Party Content
+- Biblical text may be sourced from public domain or licensed translations
+- AI responses are generated content, not direct quotations unless specified
+- Respect copyright of any biblical translations used
+
+## 8. Privacy and Data Protection
+
+### 8.1 Data Collection
+Our privacy practices are detailed in our Privacy Policy, which is incorporated into these Terms by reference.
+
+### 8.2 Data Storage
+- Local storage on your device is the default
+- iCloud synchronization is optional and user-controlled
+- We do not store personal conversations on our servers
+
+## 9. Third-Party Services
+
+### 9.1 Apple Services
+- App Store purchases and iCloud sync are subject to Apple's terms
+- We are not responsible for Apple service interruptions
+
+### 9.2 AI Services
+- AI responses are powered by third-party AI services (OpenAI)
+- These services have their own terms and privacy policies
+- We are not responsible for AI service availability or accuracy
+
+## 10. Disclaimers and Limitations
+
+### 10.1 Service Availability
+- We strive for reliable service but cannot guarantee 100% uptime
+- Features may be modified, suspended, or discontinued
+- Backup your important conversations locally
+
+### 10.2 Religious Guidance Disclaimer
+- ScriptureAI is a study tool, not a replacement for pastoral care
+- For serious spiritual matters, consult qualified religious leaders
+- In crisis situations, seek appropriate professional help
+
+### 10.3 Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+- We provide the App "as is" without warranties
+- We are not liable for indirect, incidental, or consequential damages
+- Our total liability is limited to the amount you paid for the App
+- We are not responsible for lost data, conversations, or usage credits
+
+## 11. Modifications to Terms
+
+### 11.1 Updates
+- We may update these Terms from time to time
+- Significant changes will be communicated through the App
+- Continued use constitutes acceptance of updated Terms
+
+### 11.2 Notification
+- Updates will be posted with a new effective date
+- Users will be notified of material changes where required by law
+
+## 12. Termination
+
+### 12.1 User Termination
+- You may stop using the App at any time
+- Delete the App to terminate your use
+- Active subscriptions will continue until cancelled
+
+### 12.2 Developer Termination
+We may terminate or suspend access if you:
+- Violate these Terms
+- Use the App for prohibited purposes
+- Engage in behavior harmful to other users or the service
+
+## 13. Governing Law
+
+These Terms are governed by the laws of the United States and the state where the developer is located, without regard to conflict of law principles.
+
+## 14. Dispute Resolution
+
+### 14.1 Informal Resolution
+Before formal legal action, we encourage users to contact us to resolve disputes informally.
+
+### 14.2 Arbitration
+Any disputes may be subject to binding arbitration as permitted by law and Apple's App Store terms.
+
+## 15. Severability
+
+If any provision of these Terms is found unenforceable, the remaining provisions will continue in full force and effect.
+
+## 16. Contact Information
+
+For questions about these Terms of Service, please contact us at:
+- **Email**: hello@scriptureai.app
+- **App**: Use the feedback feature within ScriptureAI
+
+## 17. Acknowledgment
+
+By using ScriptureAI, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+
+---
+
+**Last Updated**: September 09, 2025
+**Version**: 1.0
