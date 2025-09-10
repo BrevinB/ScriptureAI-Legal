@@ -1,6 +1,6 @@
 # Terms of Service for ScriptureAI
 
-**Effective Date:** January 25, 2025
+**Effective Date:** September 09, 2025
 
 ## 1. Acceptance of Terms
 
