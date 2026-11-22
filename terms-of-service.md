@@ -1,6 +1,6 @@
 # Terms of Service for ScriptureAI
 
-**Effective Date:** September 09, 2025
+**Effective Date:** November 20, 2026
 
 ## 1. Acceptance of Terms
 
@@ -8,20 +8,20 @@ By downloading, installing, or using ScriptureAI ("the App"), you agree to be bo
 
 ## 2. Description of Service
 
-ScriptureAI is an iOS application that provides AI-powered biblical insights and commentary. The App uses artificial intelligence to help users explore biblical questions and receive scripture-based responses.
+ScriptureAI is a mobile application for iOS and Android that provides AI-powered biblical insights and commentary. The App uses artificial intelligence to help users explore biblical questions and receive scripture-based responses.
 
 ### Key Features:
 - AI-powered biblical Q&A
 - Scripture exploration and commentary
 - Chat history and conversation management
-- Optional iCloud synchronization
-- Usage tracking and subscription management
+- Optional iCloud synchronization (iOS)
+- Free use with limits, and an optional ScriptureAI Pro subscription
 
 ## 3. User Accounts and Data
 
 ### 3.1 Account Requirements
 - No account creation is required to use basic features
-- iCloud account required for data synchronization (optional)
+- On iOS, an iCloud account is required only for optional data synchronization
 
 ### 3.2 User Responsibilities
 You are responsible for:
@@ -31,24 +31,22 @@ You are responsible for:
 
 ## 4. Subscriptions and Payments
 
-### 4.1 Subscription Plans
-ScriptureAI offers several subscription options:
-- **Monthly Plans**: 300 or 1000 messages per month
-- **Yearly Plans**: 5000 or 15000 messages per year
-- **One-time Purchases**: 100, 500, or 1000 permanent messages
+### 4.1 Free Use and ScriptureAI Pro
+- ScriptureAI can be used for free, with limits on saved studies, questions, devotionals, and some features
+- ScriptureAI Pro is an auto-renewing subscription, offered monthly or yearly, that removes those limits
+- Current plans, prices, and any free trial are shown in the App before you purchase
 
 ### 4.2 Payment Terms
-- All purchases are processed through Apple's App Store
-- Subscriptions automatically renew unless cancelled
+- Purchases are processed by the Apple App Store on iOS and by Google Play on Android
+- Payment is charged to your Apple ID or Google account
+- Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period
 - Prices may vary by region and are subject to change
-- Payment is charged to your Apple ID account
 
 ### 4.3 Cancellation and Refunds
-- You may cancel subscriptions through your Apple ID account settings
+- Cancel through your Apple ID subscription settings on iOS, or through Google Play → Payments & subscriptions on Android
 - Cancellation takes effect at the end of the current billing period
-- Refunds are handled according to Apple's refund policy
-- Unused messages from subscriptions expire at the end of the billing period
-- Permanent messages (one-time purchases) do not expire
+- Refunds are handled according to Apple's or Google's refund policies
+- Subscriptions bought on one platform don't carry over to the other, since the App has no accounts
 
 ### 4.4 Free Trial (if applicable)
 - Free trials may be offered for subscription plans
@@ -116,14 +114,15 @@ Our privacy practices are detailed in our Privacy Policy, which is incorporated 
 
 ### 8.2 Data Storage
 - Local storage on your device is the default
-- iCloud synchronization is optional and user-controlled
+- iCloud synchronization (iOS) and Android device backup are optional and user-controlled
 - We do not store personal conversations on our servers
 
 ## 9. Third-Party Services
 
-### 9.1 Apple Services
+### 9.1 Apple and Google Services
 - App Store purchases and iCloud sync are subject to Apple's terms
-- We are not responsible for Apple service interruptions
+- Google Play purchases and Android backup are subject to Google's terms
+- We are not responsible for Apple or Google service interruptions
 
 ### 9.2 AI Services
 - AI responses are powered by third-party AI services (OpenAI)
@@ -183,7 +182,7 @@ These Terms are governed by the laws of the United States and the state where th
 Before formal legal action, we encourage users to contact us to resolve disputes informally.
 
 ### 14.2 Arbitration
-Any disputes may be subject to binding arbitration as permitted by law and Apple's App Store terms.
+Any disputes may be subject to binding arbitration as permitted by law and the terms of the app store you downloaded the App from.
 
 ## 15. Severability
 
@@ -201,5 +200,5 @@ By using ScriptureAI, you acknowledge that you have read, understood, and agree 
 
 ---
 
-**Last Updated**: September 09, 2025
-**Version**: 1.0
+**Last Updated**: November 20, 2026
+**Version**: 1.1

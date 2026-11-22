@@ -1,6 +1,6 @@
 # ScriptureAI — Legal & Support
 
-Legal documents and support information for the ScriptureAI iOS app.
+Legal documents and support information for the ScriptureAI apps for iOS and Android.
 
 - [Privacy Policy](privacy-policy)
 - [Terms of Service](terms-of-service)
