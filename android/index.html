@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Android Beta — ScriptureAI</title>
+  <meta name="description" content="ScriptureAI is coming to Android. Join the free beta: ask any Bible question, find verses for what you're facing, and read the Greek and Hebrew.">
+  <link rel="canonical" href="https://brevinb.github.io/ScriptureAI-Legal/android/">
+  <link rel="icon" href="assets/icon-180.png">
+  <meta property="og:title" content="ScriptureAI is coming to Android">
+  <meta property="og:description" content="Help test ScriptureAI on Android. It's free and takes about 2 minutes to join.">
+  <meta property="og:image" content="https://brevinb.github.io/ScriptureAI-Legal/android/assets/og.jpg">
+  <meta property="og:url" content="https://brevinb.github.io/ScriptureAI-Legal/android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --bg: #10162a; --ink: #fff; --muted: rgba(255,255,255,0.72); --faint: rgba(255,255,255,0.45);
+      --gold: #f0c468; --line: rgba(255,255,255,0.1); --raised: rgba(28,36,66,0.85); --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      color: var(--ink); line-height: 1.55; -webkit-font-smoothing: antialiased;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #10162a 0%, #1c2442 100%) fixed var(--bg);
+    }
+    img { max-width: 100%; height: auto; }
+    a { color: var(--gold); }
+    a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px 72px; }
+    .home { display: inline-flex; align-items: center; gap: 10px; padding: 20px 0; color: var(--ink); text-decoration: none; font-weight: 700; }
+    .home img { width: 32px; height: 32px; border-radius: 8px; }
+
+    .hero { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center; padding: 24px 0 48px; }
+    .eyebrow { color: var(--gold); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-family: "Noto Serif", Georgia, "Times New Roman", serif; font-size: clamp(2.3rem, 6vw, 3.8rem); line-height: 1.05; margin: 10px 0 16px; font-weight: 700; letter-spacing: -.01em; }
+    h1 em { font-style: italic; color: var(--gold); }
+    .lede { color: var(--muted); font-size: 1.1rem; max-width: 34em; }
+    .count { display: inline-flex; align-items: baseline; gap: 10px; margin-top: 8px; padding: 12px 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--raised); }
+    .count b { color: var(--gold); font-size: 1.8rem; font-weight: 900; }
+    .count span { color: var(--muted); }
+    .hero-shot img { display: block; width: 100%; max-width: 320px; margin: 0 auto; border-radius: 26px; box-shadow: 0 30px 70px rgba(0,0,0,.55), 0 0 0 1px rgba(240,196,104,.35); }
+
+    h2 { font-family: "Noto Serif", Georgia, serif; font-size: 1.6rem; margin: 0 0 6px; }
+    .sub { color: var(--muted); margin: 0 0 22px; }
+    .steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; counter-reset: step; }
+    .step { counter-increment: step; display: grid; grid-template-columns: 48px 1fr auto; gap: 16px; align-items: center; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--raised); }
+    .step::before { content: counter(step); display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--gold); color: #10162a; font-weight: 900; font-size: 1.3rem; }
+    .step h3 { margin: 0 0 2px; font-size: 1.1rem; }
+    .step p { margin: 0; color: var(--muted); font-size: .95rem; }
+    .btn { display: inline-block; padding: 12px 20px; border-radius: 999px; background: var(--gold); color: #10162a; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    .btn.ghost { background: transparent; color: var(--gold); box-shadow: inset 0 0 0 2px var(--gold); }
+    .note { margin-top: 16px; padding: 14px 18px; border-left: 3px solid var(--gold); background: rgba(240,196,104,.07); border-radius: 0 12px 12px 0; color: var(--muted); font-size: .95rem; }
+
+    /* Let grid children shrink below their images' intrinsic width (prevents phone overflow). */
+    .hero > *, .step > *, .features figure { min-width: 0; }
+    section { margin-top: 56px; }
+    .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .features figure { margin: 0; }
+    .features img { border-radius: 16px; box-shadow: 0 16px 40px rgba(0,0,0,.45); }
+    .faq details { border-bottom: 1px solid var(--line); padding: 16px 0; }
+    .faq summary { cursor: pointer; font-weight: 700; }
+    .faq p { color: var(--muted); margin: 10px 0 0; }
+    footer { margin-top: 56px; color: var(--faint); font-size: .85rem; }
+    footer a { color: var(--muted); }
+
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 8px; }
+      .hero-shot img { max-width: 240px; }
+      .step { grid-template-columns: 40px 1fr; padding: 16px; }
+      .step::before { width: 40px; height: 40px; font-size: 1.1rem; }
+      .step .btn { grid-column: 1 / -1; text-align: center; }
+      .features { grid-template-columns: 1fr 1fr; }
+      .features figure:last-child { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="home" href="../"><img src="assets/icon-180.png" alt="" width="32" height="32">ScriptureAI</a>
+
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Android beta · free</div>
+        <h1>Coming to <em>Android</em></h1>
+        <p class="lede">I rebuilt ScriptureAI for Android from the ground up. Ask any Bible question and get an answer that shows you the verses, find Scripture for what you're facing, and see the Greek and Hebrew behind your Bible.</p>
+        <p class="lede">Before Google lets a new app launch, at least 12 people have to test it for 14 days in a row. If you have an Android phone, I'd love your help.</p>
+        <div class="count"><b>12</b><span>testers needed · 14 days · about 2 minutes to join</span></div>
+      </div>
+      <div class="hero-shot"><img src="assets/phone-1-answer.jpg" alt="A ScriptureAI study answering “What does it mean to abide in Christ?”" width="540" height="1080"></div>
+    </header>
+
+    <section id="join" style="margin-top:0">
+      <h2>Join the beta</h2>
+      <p class="sub">Do these on your Android phone, signed in with the same Google account you use for the Play Store.</p>
+      <ol class="steps">
+        <li class="step">
+          <div><h3>Join the tester group</h3><p>Tap <b>Join group</b>. This is what adds you to the beta. You won't get emails.</p></div>
+          <a class="btn" href="https://groups.google.com/g/scriptureai-testers">Join group</a>
+        </li>
+        <li class="step">
+          <div><h3>Become a tester</h3><p>Tap <b>Become a tester</b> on Google's page.</p></div>
+          <a class="btn" href="https://play.google.com/apps/testing/co.brevinb.scriptureai">Opt in</a>
+        </li>
+        <li class="step">
+          <div><h3>Install from Google Play</h3><p>Install ScriptureAI, then keep it installed for at least two weeks.</p></div>
+          <a class="btn ghost" href="https://play.google.com/store/apps/details?id=co.brevinb.scriptureai">Get it on Play</a>
+        </li>
+      </ol>
+      <p class="note">Seeing “App not available”? Make sure you finished step 1 with the same Google account you're signed in with on your phone, then wait a few minutes and try step 2 again.</p>
+    </section>
+
+    <section>
+      <h2>Your Bible study companion</h2>
+      <p class="sub">Ask anything · Find a Verse · Greek &amp; Hebrew · sermon notes · daily verse &amp; reflection · devotionals · prayer journal</p>
+      <div class="features">
+        <figure><img src="assets/phone-2-fv2.jpg" alt="Scripture for what you're facing" width="540" height="1080" loading="lazy"></figure>
+        <figure><img src="assets/phone-3-word.jpg" alt="The Greek word agapē, explained" width="540" height="1080" loading="lazy"></figure>
+        <figure><img src="assets/phone-6-prayers.jpg" alt="The prayer journal" width="540" height="1080" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      <details>
+        <summary>Is it free?</summary>
+        <p>Yes. You can ask questions, find verses, read the Greek and Hebrew, take notes, and keep a prayer journal for free, with some limits. ScriptureAI Pro removes the limits, but you don't need it to help test.</p>
+      </details>
+      <details>
+        <summary>Do I need an account?</summary>
+        <p>No. There's nothing to sign up for. Your studies, notes, and prayers stay on your phone.</p>
+      </details>
+      <details>
+        <summary>What do testers need to do?</summary>
+        <p>Use the app like you normally would and keep it installed for two weeks. If something breaks, confuses you, or an answer seems off, email <a href="mailto:hello@scriptureai.app">hello@scriptureai.app</a> or use the flag button on any answer. I read everything.</p>
+      </details>
+      <details>
+        <summary>When does it launch for everyone?</summary>
+        <p>As soon as the 14-day test wraps and Google approves it. Testers keep the app and get updates automatically.</p>
+      </details>
+      <details>
+        <summary>Which phones does it support?</summary>
+        <p>Android 8.0 and newer.</p>
+      </details>
+    </section>
+
+    <footer>
+      On iPhone? <a href="https://apps.apple.com/us/app/scriptureai-bible-study/id6751468921">Get ScriptureAI on the App Store</a> · <a href="../support-page">Support</a> · <a href="../privacy-policy">Privacy</a>
+    </footer>
+  </div>
+</body>
+</html>
